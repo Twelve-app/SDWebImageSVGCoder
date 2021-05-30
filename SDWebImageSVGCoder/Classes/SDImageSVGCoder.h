@@ -18,7 +18,7 @@ SDImageSVGCoder is a SVG image coder, which use the built-in UIKit/AppKit method
 
 @note If you call the coder directly, use the coder option (See `SDWebImageSVGCoderDefine.h`) instead of the context option.
 */
-API_AVAILABLE(macos(10.15), ios(13.0), watchos(6.0), tvos(13.0))
+API_AVAILABLE(macos(10.15), ios(12.0), watchos(6.0), tvos(13.0))
 @interface SDImageSVGCoder : NSObject <SDImageCoder>
 
 @property (nonatomic, class, readonly) SDImageSVGCoder *sharedCoder;
